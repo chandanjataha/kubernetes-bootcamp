@@ -12,8 +12,8 @@ This repository covers:
 - Services (ClusterIP, NodePort, LoadBalancer)
 - ConfigMap and Secrets
 - Resource Requests and Limits
-- Lifecycle Hooks (postStart, preStop)
-- Liveness, Readiness, and Startup Probes
+- Lifecycle Hooks (postStart, preStop) #done
+- Liveness, Readiness, and Startup Probes #done
 - Volumes and Persistent Volumes
 - Storage Classes
 - Ingress and Networking

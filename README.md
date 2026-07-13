@@ -14,7 +14,7 @@ This repository covers:
 - Resource Requests and Limits
 - Lifecycle Hooks (postStart, preStop) #done
 - Liveness, Readiness, and Startup Probes #done
-- Volumes and Persistent Volumes
+- Volumes and Persistent Volumes -emptyDir,azureFileshre-done
 - Storage Classes
 - Ingress and Networking
 - Namespaces and Labels

@@ -1,0 +1,27 @@
+apiVersion: v1
+kind: Pod
+metadata:
+   name: empty-pod
+spec:
+   containers:
+     - name: empty-pod
+       image: nginx:1.28
+       ports:
+         - containerPort: 80
+       volumeMounts:
+         - mountPath: /empty-volume
+           name: empty-volume
+
+         - mountPath: /cache-volume
+           name: cache-volume
+
+   volumes: 
+    - name: empty-volume
+      emptyDir:
+         medium: Memory
+         sizeLimit: 500Mi
+    - name: cache-volume
+      emptyDir: 
+         medium: Memory
+         sizeLimit: 100Mi
+

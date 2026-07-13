@@ -10,7 +10,7 @@ This repository covers:
 - Pods and Multi-Container Pods
 - ReplicaSet and Deployments
 - Services (ClusterIP, NodePort, LoadBalancer)
-- pdb 
+- pdb -done
 - ConfigMap and Secrets
 - Resource Requests and Limits
 - Lifecycle Hooks (postStart, preStop) #done
